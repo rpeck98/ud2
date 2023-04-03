@@ -1,4 +1,4 @@
-# ML Ops project 2
+# Udacity Azure ML Ops project 2
 
 ## Section 1 - Project Overview
 
@@ -43,15 +43,19 @@ The following sections contain the required screenshots as requested by the proj
 `az extension add -n azure-cli-ml`
 `az ad sp create-for-rbac --sdk-auth --name ml-auth`
 
-Since I am using an account my company manages, I am also not allowed to create a service principal. See following screenshot.
+Since I am using an Azure subscription that my company manages, so I am also not allowed to create a service principal. See following screenshot.
 
 ![as](./images/sp-insufficent-priv.png)
 
 ### Show the dataset as available
 
+Bank Marketing dataset available in Azure ML Studio.
+
 ![data](./images/data-set-avail.png)
 
 ### Show the expirement completed
+
+Initial AutoML experiment completed with trained models.
 
 ![exp](./images/complete-experiment.png)
 
@@ -67,17 +71,25 @@ Model specific metrics.
 
 ### Show application insights enabled
 
+Application insights has been enabled for the model REST API endpoint.
+
 ![app-insights](./images/app-insights-enabled.png)
 
 ### Show the logs output
+
+Logs are available for the endpoint.
 
 ![logs-output](./images/logs-output.png)
 
 ### Show the Swagger docs
 
+Swagger documentation for the endpoint.
+
 ![swagger](./images/swagger-app.png)
 
 ### Results of invoking endpoint
+
+Results from consuming the endpoint. Additional example available in screencast video.
 
 ![endpoint](./images/endpoint-results.png)
 
@@ -111,4 +123,5 @@ Model specific metrics.
 
 ## Section 5 - Screencast of working ML application
 
-*insert link here*
+Link to YouTube video demonstraing Udacity Project 2: <https://youtu.be/GDLY68I2F-g>
+
